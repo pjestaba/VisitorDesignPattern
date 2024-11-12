@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args) {
         // Correct instantiation of vehicles with the updated constructors
-        Car car = new Car("Red", 2021); // Car only needs color and manufactureDate
-        Motorbike motorbike = new Motorbike("Blue", 2020, 250); // Added engineCapacity as the third parameter
-        Van van = new Van("White", 2019, 5); // Added numberOfDoors as the third parameter
+        Car car = new Car("Black", 2022); // Car only needs color and manufactureDate
+        Motorbike motorbike = new Motorbike("Blue", 2022, 250); // Added engineCapacity as the third parameter
+        Van van = new Van("Red", 2013, 5); // Added numberOfDoors as the third parameter
 
         // Create an inspector
         IVehicleInspector inspector = new AltVehicleInspection();
