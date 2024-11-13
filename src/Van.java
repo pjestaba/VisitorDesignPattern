@@ -1,3 +1,4 @@
+// src/Van.java
 public class Van implements IVehicle {
     private String color;
     private int manufactureDate;
@@ -9,33 +10,13 @@ public class Van implements IVehicle {
         this.numberOfDoors = numberOfDoors;
     }
 
-    public String getColor() {
-        return color;
-    }
-
-    public void setColor(String color) {
-        this.color = color;
-    }
-
-    public int getManufactureDate() {
-        return manufactureDate;
-    }
-
-    public void setManufactureDate(int manufactureDate) {
-        this.manufactureDate = manufactureDate;
-    }
-
-    public int getNumberOfDoors() {
-        return numberOfDoors;
-    }
-
-    public void setNumberOfDoors(int numberOfDoors) {
-        this.numberOfDoors = numberOfDoors;
-    }
-
     @Override
     public int accept(IVehicleInspector vehicleInspector) {
         return vehicleInspector.visit(this);
     }
-}
 
+    @Override
+    public float co2Emissions() {
+        return 8887 * (1 + (0.1f * (numberOfDoors - 2)));
+    }
+}

@@ -1,20 +1,17 @@
+// src/AltVehicleInspection.java
 public class AltVehicleInspection implements IVehicleInspector {
-
     @Override
     public int visit(Car car) {
-        System.out.println("Inspecting Car - Color: " + car.getColor() + ", Year: " + car.getManufactureDate());
-        return car.getManufactureDate() * 2;
+        return 4500; // Alternative inspection fee for Car
     }
 
     @Override
     public int visit(Motorbike motorbike) {
-        System.out.println("Inspecting Motorbike - Color: " + motorbike.getColor() + ", Year: " + motorbike.getManufactureDate());
-        return motorbike.getManufactureDate() * 3;
+        return 6500; // Alternative inspection fee for Motorbike
     }
 
     @Override
     public int visit(Van van) {
-        System.out.println("Inspecting Van - Color: " + van.getColor() + ", Year: " + van.getManufactureDate());
-        return van.getManufactureDate() * 4;
+        return 8500; // Alternative inspection fee for Van
     }
 }

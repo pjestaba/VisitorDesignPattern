@@ -1,5 +1,5 @@
 public class VehicleFactory {
-    private VehicleFactory() {} // Private constructor to prevent instantiation
+    private VehicleFactory() {}
 
     public static IVehicleInspector getVehicleInspector(String prop) {
         if ("alt".equalsIgnoreCase(prop)) {
