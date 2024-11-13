@@ -1,16 +1,1 @@
-# VisitorDesignPattern
-Construction Lab 2
-
-Activity 1:
-For Activity 1, I have created alternative files for the indicated with “Alt” in front of the file name. The Alt files have modified code for the original files but have the same utility. 
-
-Activity 2: 
-For Activity 2, the implementation of Singleton is required for the code to run. Hence, I created Act2Main and Act2VehicleService to calculate the total cost. I did the initialization to build “vi”. 
-
-Activity 3: 
-Expanded VehicleInspection to calculate emission fees depending on multiple and suitable situations. This part contains ‘es’ to select the emission fees. 
-
-Patterns: 
-Visitor, Strategy, and Singleton are the 3 patterns used. 
-
-Visitor for inspection fees, strategy for emissions fee and Singleton to make sure that there is only one “Alt3VehicleService”. 
+The patterns Strategy and Visitor manage two objectives. Putting in similar actions and letting them assume according to their needs is called a Strategy pattern. When an object has to be modified dynamically. In this assignment, it's used to calculate emissions fees. The other pattern “Visitor” is used when classes ate related and multiple functionalities need to be done. Classes in this case being, Car, Motorbike, and Van. It operates in a constant pattern and calculates inspection fees. When comparing all patterns, the Strategy pattern is manageable and easily accessible because it has a transparent runtime with any changes. This can be used in cases like this as this project will change its statistics over time. It changes with internal and external inputs from the users and developers. 
