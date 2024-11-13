@@ -1,4 +1,3 @@
-// src/AltVehicleInspection.java
 public class AltVehicleInspection implements IVehicleInspector {
     @Override
     public int visit(Car car) {

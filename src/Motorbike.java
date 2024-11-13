@@ -1,4 +1,3 @@
-// src/Motorbike.java
 public class Motorbike implements IVehicle {
     private String color;
     private int manufactureDate;

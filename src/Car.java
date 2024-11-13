@@ -1,4 +1,3 @@
-// src/Car.java
 public class Car implements IVehicle {
     private String color;
     private int manufactureDate;

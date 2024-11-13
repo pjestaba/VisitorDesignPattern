@@ -1,4 +1,3 @@
-// src/Act3VehicleService.java
 public class Act3VehicleService {
     private static final Act3VehicleService instance;
     private IVehicleInspector inspector;

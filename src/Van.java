@@ -1,4 +1,3 @@
-// src/Van.java
 public class Van implements IVehicle {
     private String color;
     private int manufactureDate;
